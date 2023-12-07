@@ -23,7 +23,7 @@ export default function NavBar(){
             
             <button onClick={hadleOnclick} className={styles.btn_menu}><BiMenu/></button>
             
-            <Link className={styles.logo} to={'/'} ><img src={logo} alt="logo" /></Link>
+            <Link className={styles.logo} to={'/home'} ><img src={logo} alt="logo" /></Link>
             
             <nav >
                 <ul className={`${styles.menu} ${styles[name]}`}>

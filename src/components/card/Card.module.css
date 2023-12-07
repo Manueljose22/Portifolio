@@ -17,6 +17,7 @@
 .card h3{
     color: #fff;
     font-weight: lighter;
+    text-transform: capitalize;
 }
 
 .body{

@@ -1,0 +1,67 @@
+.container_project{
+    width: 58%;
+    padding: 1rem 1.25rem;
+    text-align: justify;
+    align-items: center;
+    margin: 7rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text_center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+
+}
+
+.text_center h2{
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    color: #FFF;
+}
+
+
+/* List Project */
+.flex{
+    display: flex;
+    flex: 1 0 100%;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+ 
+}
+.flex a{
+    color: #BFBFBA;
+    text-decoration: none;
+}
+
+
+/* media */
+@media(max-width: 1028px){
+    .flex{
+        flex-wrap: nowrap;
+    }
+}
+@media(max-width: 750px){
+    .flex{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* margin: 0 auto; */
+    }
+    .text_center h2{
+        font-size: 1.7rem;
+    }
+    .container_project{
+        width: 70%;
+        padding: 0;
+    }
+
+}

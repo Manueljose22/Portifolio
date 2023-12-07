@@ -1,0 +1,39 @@
+.card{
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+    padding: 1rem;
+    background-color: #1B2022;
+    box-shadow: 0 0 10px #bfbfba3f;
+    border: .4rem;
+    margin-top: 2.3rem;
+    transition: all .30s ease-in-out;
+}
+
+.card:hover{
+    
+    transform: translateY(-5px);
+}
+.card h3{
+    color: #fff;
+    font-weight: lighter;
+}
+
+.body{
+    line-height: 1.5rem;
+    text-align: justify;
+}
+.card_body{
+    display: flex;
+    margin-top: .7rem;
+    align-items: center;
+}
+
+.icon{
+    margin-right: .8rem;
+}
+
+.icon svg{
+    font-size: 2rem;
+    color: #FFF;
+}

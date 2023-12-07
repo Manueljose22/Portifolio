@@ -1,0 +1,39 @@
+.container {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #1b2022;
+    padding: 1rem;
+    box-shadow: 0 0 10px #bfbfbf46;
+    margin-bottom: 2rem;
+}
+
+.container img{
+    width: 19.5rem;
+    height: 9.3125rem;
+}
+
+.container p{
+    width: 19.5rem;
+    word-wrap: break-word;
+    line-height: 1.4rem;
+}
+
+.container h3{
+    margin: .7rem 0;
+    color: #FFF;
+}
+
+/* techs */
+.tech{
+    background-color: #101314;
+    padding: .5rem;
+    border-radius: .3rem;
+    color: #BFBFBA;
+    margin-top: 0.8rem;
+}
+
+.row{
+    display: flex;
+    gap: .5rem;
+}
+

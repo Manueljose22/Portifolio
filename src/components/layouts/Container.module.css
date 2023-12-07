@@ -1,0 +1,12 @@
+.container{
+    margin-top: 3rem;
+}
+.container h2{
+    color: #fff;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 2.5rem 0;
+}
+/* h2 span {
+    color: #5BC0DE;
+} */

@@ -1,0 +1,41 @@
+.skills{
+    width: 53%;
+    padding: 1rem 5%; 
+    text-align: justify;
+    align-items: center;
+    margin: 7rem auto;
+    transition: transform 1s ease-out;
+}
+
+.skills h2{
+    color: #fff;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: .5rem;
+
+}
+
+.title{
+    text-align: center;
+}
+
+/* .s {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 1s ease-out;
+}
+.active-section {
+    transform: translateX(0%);
+  }
+.inactive-section {
+    transform: translate3d(-100%,0,0);
+    opacity: 0;
+} */
+
+@media(max-width: 750px){
+    .skills{
+        width: 100%;
+    }
+}

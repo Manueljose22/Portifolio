@@ -1,12 +1,11 @@
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import './App.css';
-import About from './components/About';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
 import NavBar from './components/layouts/NavBar';
 import Footer from './components/layouts/Footer';
-import Home from './components/Home';
-// import GlobalStyle from './components/layouts/Global';
+import About from './pages/About';
+import Skills from './Pages/Skills';
+import Projects from './pages/Projects';
+import Home from './pages/Home';
 
 export default function App(){
 
@@ -15,10 +14,10 @@ export default function App(){
         <Router>
             <NavBar />
             <Routes>
-                <Route path='/home' element={<Home />} />
-                <Route path='/about' element={<About />} />
-                <Route path='/skills' element={<Skills />} />
-                <Route path='/projects' element={<Projects />} />
+                <Route path='/Portifolio/home' element={<Home />} />
+                <Route path='/Portifolio/about' element={<About />} />
+                <Route path='/Portifolio/skills' element={<Skills />} />
+                <Route path='/Portifolio/projects' element={<Projects />} />
             </Routes>
             
             <Footer />

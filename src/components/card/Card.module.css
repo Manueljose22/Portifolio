@@ -1,13 +1,16 @@
 .card{
     height: auto;
     max-width: 100%;
-    width: 100%;
     padding: 1rem;
     background-color: #1B2022;
     box-shadow: 0 0 10px #bfbfba3f;
     border: .4rem;
-    margin-top: 2.3rem;
+    margin-top: 2rem;
     transition: all .30s ease-in-out;
+}
+
+.card.width{
+    width: 40%;
 }
 
 .card:hover{
@@ -15,9 +18,14 @@
     transform: translateY(-5px);
 }
 .card h3{
-    color: #fff;
+    color: #0bf;
     font-weight: lighter;
     text-transform: capitalize;
+    margin-bottom: 0.5rem;
+}
+
+.card h5{
+    color: #fff;
 }
 
 .body{

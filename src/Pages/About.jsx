@@ -1,14 +1,14 @@
 import styles from './About.module.css';
-import Card from './card/Card';
-import Container from './layouts/Container';
-import {FaGraduationCap, FaFileAlt} from 'react-icons/fa';
+import Card from '../components/card/Card';
+import Container from '../components/layouts/Container';
+import {FaGraduationCap, FaFileAlt, FaBriefcase} from 'react-icons/fa';
 
 
 
 export default function About() {
   return (
     <section className={styles.about_container}>
-      <Container title={'Carreira'} >
+      <Container title={'Carreira'} icon={<FaBriefcase />}>
         <Card title={'Desenvolvedor Front-end Web'} 
             text={' Trabalhei meio período remotamente como freelancer, para algumas empresas inciantes nos últimos meses, criando soluções, interfaces de usuário. Trabalhei com uma variedade de técnologias, incluíndo HTML 5, CSS 3, JavaScript e muito mais.'}
         />
@@ -21,10 +21,12 @@ export default function About() {
 
       <Container title={'Formação'} icon={<FaGraduationCap />}>
         <Card title={'Engenharia Informática'} 
-              text={'Frequência no 3º Ano, no Instituto Superior Politécnico do Cazenga.'} />
+              subtitle={'Instituto Superior Politécnico do Cazenga'}
+              text={'Frequência no 3º Ano.'} />
 
         <Card title={'Contabildade e Gestão'} 
-              text={'Médio técnico em Contabilidade e Gestão, formado pelo Instituto  Médio de Económia de Luanda no período de 2014 à 2016.'} />
+              subtitle={'Instituto  Médio de Económia de Luanda'}
+              text={'Médio técnico em Contabilidade e Gestão, formado no período de 2014 à 2016.'} />
       </Container>
 
       <Container title={'Certificações'} icon={<FaFileAlt />}>

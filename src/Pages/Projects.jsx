@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import styles from './Projects.module.css';
-import CardProject from './card/CardProject';
+import CardProject from '../components/card/CardProject';
 import imgLoading from '../assets/img/loading.gif';
 
 

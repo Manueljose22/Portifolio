@@ -1,5 +1,6 @@
 import styles from './Skills.module.css'
-import Card from './card/Card'
+import Card from '../components/card/Card'
+import Box from '../components/layouts/Box'
 import {BiLogoJavascript, BiLogoReact, BiLogoHtml5, BiLogoCss3} from 'react-icons/bi';
 import {FaDatabase, FaNodeJs, FaBootstrap} from 'react-icons/fa6';
 
@@ -11,11 +12,13 @@ export default function Skills() {
         <p>Minhas habilidades técnicas</p>
       </div>
 
+      <Box>
       <Card 
         title={'Javascript'}
         classIcon={'icon'} 
         icon={<BiLogoJavascript/>} 
         text={'Desenvolvimento Web'}
+        customClass={'width'}
       />
       <Card 
         title={'React'}
@@ -35,7 +38,7 @@ export default function Skills() {
         icon={<BiLogoCss3/>} 
         text={'Desenvolvimento Web'}
       />
-      <Card 
+      <Card
         title={'MySQL'}
         classIcon={'icon'} 
         icon={<FaDatabase/>} 
@@ -53,6 +56,7 @@ export default function Skills() {
         icon={<FaBootstrap/>} 
         text={'Desenvolvimento Web'}
       />
+      </Box>
     </section>
   )
 }

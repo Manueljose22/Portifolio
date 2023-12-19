@@ -3,19 +3,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1b2022f1;
+    background-color: #1b2022;
     top: 0;
     right: 0;
     z-index: 1000;
-    padding: 1.2rem 8%;
+    padding: 1rem 8%;
     box-shadow: 0 0 18px #bfbfbf46;
     position: fixed;
-    filter: blur(.5px);
     
 }
 
 .logo img{
-    width: 3rem;
+    width: 2.5rem;
 }
 
 .menu{
@@ -29,7 +28,6 @@
     text-decoration: none;
     color: #bfbfbf;
     font-size: 1.1rem;
-    /* font-weight: 500; */
     transition: all .5s;
 }
 
@@ -63,6 +61,20 @@
     color: #bfbfbf;
 }
 
+/* Animation */
+@keyframes sunBtn{
+    0%{
+        transform: rotate(-60deg);
+    }
+    /* 100%{
+        transform: rotate(60deg);
+    } */
+}
+
+.btn{
+    animation: sunBtn .60s infinite;
+}
+
 /* Media */
 @media (max-width:800px) {
     .menu{
@@ -72,7 +84,6 @@
         display: block;
     }
     .logo{
-        /* margin-left: 7rem; */
         margin-left: 18%;
     }
     .menu{
